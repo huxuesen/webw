@@ -16,7 +16,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
-SIMPLEUI_DEFAULT_THEME = 'admin.lte.css'
+SIMPLEUI_DEFAULT_THEME = 'light.css'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
@@ -147,10 +147,11 @@ SIMPLEUI_CONFIG = {
 SIMPLEUI_ICON = {
     '系统管理': 'fas fa-cog',
     '系统邮箱': 'fas fa-mail-bulk',
-    'RSS(不可用)': 'fas fa-rss',
+    'RSS监测': 'fas fa-rss',
     '网页监控管理': 'far fa-file-code',
     '任务状态': 'far fa-calendar-check',
     '日志查看': 'fas fa-book-reader',
+    'Telegram Bot 设置': 'fab fa-telegram',
 }
 
 SIMPLEUI_ANALYSIS = False
@@ -158,7 +159,7 @@ SIMPLEUI_STATIC_OFFLINE = True
 SIMPLEUI_LOGO = 'https://demosc.chinaz.net/Files/pic/iconsico/7933/b1.ico'
 
 # logging配置
-log_path = os.path.join(BASE_DIR, 'static', 'log')
+log_path = os.path.join(BASE_DIR, 'db', 'log')
 log_file = os.path.join(log_path, 'log.txt')
 if not os.path.exists(log_file):
     os.makedirs(log_path, exist_ok=True)

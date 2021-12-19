@@ -6,7 +6,7 @@ import os
 def log_view(request):
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-    log_path = os.path.join(BASE_DIR, 'static', 'log', 'log.txt')
+    log_path = os.path.join(BASE_DIR, 'db', 'log', 'log.txt')
 
     content = '日志文件不存在'
     if os.path.exists(log_path):

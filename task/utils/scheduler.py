@@ -44,6 +44,22 @@ def send_message(content, header, notifications):
 
         try:
             if type == 0:
+                handler = new_handler('bark')
+                handler.send(notification_detail, header, content)
+        except Exception as e:
+            fail += 1
+            exception_content += 'Bark Exception: {};'.format(repr(e))
+
+        try:
+            if type == 1:
+                handler = new_handler('custom')
+                handler.send(notification_detail, header, content)
+        except Exception as e:
+            fail += 1
+            exception_content += 'Custom Exception: {};'.format(repr(e))
+
+        try:
+            if type == 2:
                 handler = new_handler('mail')
                 content = markdown.markdown(content,
                                             output_format='html',
@@ -54,7 +70,7 @@ def send_message(content, header, notifications):
             exception_content += 'Mail Exception: {};'.format(repr(e))
 
         try:
-            if type == 1:
+            if type == 3:
                 handler = new_handler('wechat')
                 handler.send(notification_detail, header, content)
         except Exception as e:
@@ -62,39 +78,7 @@ def send_message(content, header, notifications):
             exception_content += 'Wechat Exception: {};'.format(repr(e))
 
         try:
-            if type == 2:
-                handler = new_handler('pushover')
-                handler.send(notification_detail, header, content)
-        except Exception as e:
-            fail += 1
-            exception_content += 'Pushover Exception: {};'.format(repr(e))
-
-        try:
-            if type == 3:
-                handler = new_handler('bark')
-                handler.send(notification_detail, header, content)
-        except Exception as e:
-            fail += 1
-            exception_content += 'Bark Exception: {};'.format(repr(e))
-
-        try:
             if type == 4:
-                handler = new_handler('custom')
-                handler.send(notification_detail, header, content)
-        except Exception as e:
-            fail += 1
-            exception_content += 'Custom Exception: {};'.format(repr(e))
-
-        try:
-            if type == 5:
-                handler = new_handler('slack')
-                handler.send(notification_detail, header, content)
-        except Exception as e:
-            fail += 1
-            exception_content += 'Slack Exception: {};'.format(repr(e))
-
-        try:
-            if type == 6:
                 handler = new_handler('telegram')
                 handler.send(notification_detail, header, content)
         except Exception as e:

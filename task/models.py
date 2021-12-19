@@ -223,7 +223,7 @@ class RSSTask(models.Model):
 
     class Meta:
         verbose_name = "RSS监控"
-        verbose_name_plural = "RSS(不可用)"
+        verbose_name_plural = "RSS监测"
 
     def __str__(self):
         return self.name
