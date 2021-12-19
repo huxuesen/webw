@@ -12,7 +12,7 @@ jobs:
             name: Checkout
             uses: actions/checkout@v1
         -
-            name: Dockerhub login
+            name: winpty docker login
             env:
                 DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
                 DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
