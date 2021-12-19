@@ -28,22 +28,8 @@ class SystemMailSetting(models.Model):
         return self.mail_server
 
 
-class PushoverSetting(models.Model):
-    api_token = models.CharField(max_length=100,
-                                 null=False,
-                                 verbose_name='Pushover API Token')
-
-    class Meta:
-        verbose_name = "Pushover 设置"
-        verbose_name_plural = "Pushover 设置"
-
-    def __str__(self):
-        return 'Pushover ' + self.api_token
-
-
 class Notification(models.Model):
-    type_choice = ((0, '邮箱'), (1, '微信'), (2, 'pushover'), (3, 'Bark'),
-                   (4, '自定义通知'), (5, 'Slack'), (6, 'Telegram'))
+    type_choice = ((0, 'Bark'), (1, '自定义通知'), (2, '邮箱'), (3, '微信'), (4, 'Telegram'))
     name = models.CharField(max_length=32,
                             null=False,
                             verbose_name='通知方式名称',
@@ -55,8 +41,7 @@ class Notification(models.Model):
                                verbose_name='通知方式类型')
     content = models.CharField(max_length=512,
                                null=False,
-                               verbose_name='邮箱地址 / Server 酱 SCKEY / \
-            Pushover User Key / Bark key / 自定义网址 / Slack channel / Telegram chat_id'
+                               verbose_name='Key / 自定义Url'
                                )
 
     class Meta:
@@ -71,19 +56,6 @@ class Log(models.Model):
     class Meta:
         verbose_name = "日志查看"
         verbose_name_plural = "日志查看"
-
-
-class SlackSetting(models.Model):
-    token = models.CharField(max_length=100,
-                             null=False,
-                             verbose_name='Slack OAuth Access Token')
-
-    class Meta:
-        verbose_name = "Slack 设置"
-        verbose_name_plural = "Slack 设置"
-
-    def __str__(self):
-        return 'Slack ' + self.token
 
 
 class TelegramSetting(models.Model):
