@@ -7,7 +7,7 @@ from task.utils.selector.selector import SelectorABC as FatherSelector
 
 warnings.filterwarnings("ignore")
 
-USERAGENT = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36'
+USERAGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30'
 
 
 class PhantomJSSelector(FatherSelector):

@@ -141,8 +141,9 @@ rule_funs = [
 # 1 有变化但没有触发规则(更新content 但不发送)
 # 2 有变化且触发规则(更新content 发送)
 # 3 有变化没有设置规则(更新content 发送)
-def is_changed(rules, content, last_content):
-    if last_content is not None and last_content == content:
+#last_content2避免重复提醒问题
+def is_changed(rules, content, last_content, last_content2):
+    if last_content is not None and last_content2 is not None and(last_content == content or last_content2 == content):
         return 0
     else:
         if rules:

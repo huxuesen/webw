@@ -80,6 +80,7 @@ WSGI_APPLICATION = 'webmonitor.wsgi.application'
 
 os.makedirs(os.path.join(BASE_DIR, 'db'), exist_ok=True)
 
+# 生成数据库
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -136,17 +137,17 @@ SIMPLEUI_CONFIG = {
     'system_keep':
     True,
     'menus': [{
-        'name': '使用文档',
-        'icon': 'fa fa-file',
-        'url': 'https://www.logicjake.xyz/WebMonitor/#/how'
+        'name': 'PlayWright',
+        'icon': 'fab fa-chrome',
+        'url': ''
     }],
-    'menu_display': ['Simpleui', '任务管理', '系统管理', '使用文档'],
+    'menu_display': ['Simpleui', '任务管理', '系统管理', 'PlayWright'],
 }
 
 SIMPLEUI_ICON = {
     '系统管理': 'fas fa-cog',
     '系统邮箱': 'fas fa-mail-bulk',
-    'RSS监控管理': 'fas fa-rss',
+    'RSS(不可用)': 'fas fa-rss',
     '网页监控管理': 'far fa-file-code',
     '任务状态': 'far fa-calendar-check',
     '日志查看': 'fas fa-book-reader',
@@ -154,7 +155,7 @@ SIMPLEUI_ICON = {
 
 SIMPLEUI_ANALYSIS = False
 SIMPLEUI_STATIC_OFFLINE = True
-SIMPLEUI_LOGO = 'https://www.logicjake.xyz/img/favicon.ico'
+SIMPLEUI_LOGO = 'https://demosc.chinaz.net/Files/pic/iconsico/7933/b1.ico'
 
 # logging配置
 log_path = os.path.join(BASE_DIR, 'static', 'log')

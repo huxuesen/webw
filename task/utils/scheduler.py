@@ -6,7 +6,7 @@ import markdown
 from apscheduler.jobstores.base import JobLookupError
 from func_timeout.exceptions import FunctionTimedOut
 
-from task.models import Content, RSSTask, Task, TaskStatus
+from task.models import Content, Content2, RSSTask, Task, TaskStatus
 from task.utils.extract_info import get_content, get_rss_content
 from task.utils.notification.notification_handler import new_handler
 from task.utils.rule import is_changed
@@ -46,7 +46,7 @@ def send_message(content, header, notifications):
             if type == 0:
                 handler = new_handler('mail')
                 content = markdown.markdown(content,
-                                            output_format='html5',
+                                            output_format='html',
                                             extensions=['extra'])
                 handler.send(notification_detail, header, content)
         except Exception as e:
@@ -113,6 +113,7 @@ def monitor(id, type):
     status = ''
     global_content = None
     last = None
+    last2 = None
     try:
         if type == 'html':
             task = Task.objects.get(pk=id)
@@ -134,18 +135,27 @@ def monitor(id, type):
             except Exception:
                 last = Content(task_id=id)
 
+            try:
+                last2 = Content2.objects.get(task_id=id, task_type=type)    #加入content2解决重复提醒个问题
+            except Exception:
+                last2 = Content2(task_id=id)
+
             last_content = last.content
+            last_content2 = last2.content
             content = get_content(url, is_chrome, selector_type, selector,
                                   content_template, regular_expression,
                                   headers)
+
             global_content = content
-            status_code = is_changed(rule, content, last_content)
+            status_code = is_changed(rule, content, last_content, last_content2)
             logger.info(
-                'rule: {}, content: {}, last_content: {}, status_code: {}'.
-                format(rule, content, last_content, status_code))
+                'rule: {}, content: {}, last_content: {}, last_content2: {}, status_code: {}'.
+                format(rule, content, last_content2, last_content2, status_code))
             if status_code == 1:
                 status = '监测到变化，但未命中规则，最新值为{}'.format(content)
+                last2.content = last_content
                 last.content = content
+                last2.save()
                 last.save()
             elif status_code == 2:
                 status = '监测到变化，且命中规则，最新值为{}'.format(content)
@@ -155,7 +165,9 @@ def monitor(id, type):
             elif status_code == 3:
                 status = '监测到变化，最新值为{}'.format(content)
                 send_message(content, name, notifications)
+                last2.content = last_content
                 last.content = content
+                last2.save()
                 last.save()
             elif status_code == 0:
                 status = '成功执行但未监测到变化，当前值为{}'.format(content)

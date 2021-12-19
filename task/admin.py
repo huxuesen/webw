@@ -4,7 +4,7 @@ from django.contrib import admin, messages
 from import_export import resources
 from import_export.admin import ImportExportModelAdmin
 
-from task.models import Content, RSSTask, Task, TaskStatus
+from task.models import Content, Content2, RSSTask, Task, TaskStatus
 from task.utils.scheduler import remove_job
 
 logger = logging.getLogger('admin')
@@ -62,6 +62,7 @@ class TaskAdmin(ImportExportModelAdmin):
 
             TaskStatus.objects.filter(task_id=id, task_type='html').delete()
             Content.objects.filter(task_id=id, task_type='html').delete()
+            Content2.objects.filter(task_id=id, task_type='html').delete()
 
             o.delete()
             logger.info('task_{}删除'.format(id))
@@ -104,6 +105,7 @@ class RSSTaskAdmin(ImportExportModelAdmin):
 
             TaskStatus.objects.filter(task_id=id, task_type='rss').delete()
             Content.objects.filter(task_id=id, task_type='rss').delete()
+            Content2.objects.filter(task_id=id, task_type='rss').delete()
 
             o.delete()
             logger.info('task_RSS{}删除'.format(id))

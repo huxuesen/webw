@@ -38,6 +38,11 @@ class Content(models.Model):
     content = models.CharField(max_length=512, null=False)
     task_type = models.CharField(max_length=32, null=False, default='html')
 
+class Content2(models.Model):
+    task_id = models.IntegerField(null=False)
+    content = models.CharField(max_length=512, null=False)
+    task_type = models.CharField(max_length=32, null=False, default='html')
+
 
 class TaskStatus(models.Model):
     task_id = models.IntegerField(null=False, verbose_name='任务ID')
@@ -117,12 +122,11 @@ class Task(models.Model):
                                         choices=selector_choices)
     selector = models.TextField(verbose_name='元素选择器',
                                 blank=False,
-                                help_text='一行一个元素选择器，每一行的格式为：选择器名称{选择器内容}，\
-            例如：title{//*[@id="id3"]/h3/text()}。其中 url 为系统保留选择器名称，请不要使用且无法被覆盖')
+                                help_text='')
     template = models.TextField(
         verbose_name='消息体模板',
         blank=True,
-        help_text='可为空，自定义发送的通知内容格式，按照选择器名称进行替换，具体示例见文档')
+        help_text='')
     is_chrome_choices = ((0, 'no'), (1, 'yes'))
     is_chrome = models.IntegerField(null=False,
                                     default='no',
@@ -143,14 +147,14 @@ class Task(models.Model):
     regular_expression = models.CharField(max_length=500,
                                           verbose_name='正则表达式',
                                           blank=True,
-                                          help_text='使用正则表达式进一步提取信息，可以留空')
+                                          help_text='')
     rule = models.CharField(max_length=500,
                             verbose_name='监控规则',
                             blank=True,
-                            help_text='规则写法参考文档，留空则只简单监控内容变化')
+                            help_text='')
     headers = models.TextField(verbose_name='自定义请求头',
                                blank=True,
-                               help_text='自定义请求头，如可以设置cookie获取登录后才能查看的页面')
+                               help_text='')
 
     class Meta:
         verbose_name = "网页监控"
@@ -219,7 +223,7 @@ class RSSTask(models.Model):
 
     class Meta:
         verbose_name = "RSS监控"
-        verbose_name_plural = "RSS监控管理"
+        verbose_name_plural = "RSS(不可用)"
 
     def __str__(self):
         return self.name
