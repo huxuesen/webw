@@ -10,9 +10,9 @@ jobs:
         steps:
         -
             name: Checkout
-            uses: actions/checkout@v1
+            uses: actions/checkout@v2
         -
-            name: winpty docker login
+            name: Dockerhub login
             env:
                 DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
                 DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
@@ -33,4 +33,4 @@ jobs:
                 --platform linux/amd64,linux/arm64 \
                 --output "type=image,push=true" \
                 --file ./Dockerfile . \
-                --tag $(echo "${DOCKER_USERNAME}" | tr '[:upper:]' '[:lower:]')/webmonitor:latest
+                --tag $(echo "${DOCKER_USERNAME}" | tr '[:upper:]' '[:lower:]')/webw:latest
