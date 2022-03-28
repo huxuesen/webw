@@ -2,7 +2,7 @@ name: '[docker] CI for releases'
 
 on:
     push:
-        branches: 1.1
+        branches: 1.1.1
 
 jobs:
     release:
