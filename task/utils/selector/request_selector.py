@@ -48,5 +48,7 @@ class RequestsSelector(FatherSelector):
         result = OrderedDict()
         for key, json_ext in selector_dict.items():
             result[key] = self.json_parse(html, json_ext)
+            #去掉result中的所有["和"]符号
+            result[key] = result[key].replace('[', '').replace(']', '').replace('"', '')
 
         return result
