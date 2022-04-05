@@ -15,9 +15,9 @@ class RequestsSelector(FatherSelector):
             if type(header_dict) != dict:
                 raise Exception('必须是字典格式')
 
-            r = requests.get(url, headers=header_dict, verify=False)    #关闭ssl验证
+            r = requests.get(url, headers=header_dict, verify=False)    #关闭ssl验证。
         else:
-            r = requests.get(url, timeout=10, verify=False)    #关闭ssl验证
+            r = requests.get(url, timeout=10, verify=False)    #关闭ssl验证。
         r.encoding = r.apparent_encoding
         html = r.text
         return html
