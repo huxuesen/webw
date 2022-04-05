@@ -59,13 +59,11 @@ def get_content(url,
             selector_dict[key] = value
 
     if selector_type == 0:
-        content_dict = selector_handler.get_by_xpath(url, selector_dict,
-                                                     headers)
+        content_dict = selector_handler.get_by_xpath(url, selector_dict, headers)
     elif selector_type == 1:
         content_dict = selector_handler.get_by_css(url, selector_dict, headers)
     elif selector_type == 2:
-        content_dict = selector_handler.get_by_json(url, selector_dict,
-                                                    headers)
+        content_dict = selector_handler.get_by_json(url, selector_dict, headers)
     else:
         logger.error('无效选择器')
         raise Exception('无效选择器')
