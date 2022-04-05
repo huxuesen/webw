@@ -19,15 +19,16 @@ class SelectorABC():
         if 'string()' in xpath_ext:
             xpath_ext = xpath_ext.split('/')
             xpath_ext = '/'.join(xpath_ext[:-1])
-            res = Selector(
-                text=html).xpath(xpath_ext)[0].xpath('string(.)').extract()
+            res = Selector(text=html).xpath(xpath_ext)[0].xpath('string(.)').extract()
         else:
             res = Selector(text=html).xpath(xpath_ext).extract()
 
         if len(res) != 0:
             return res[0]
         else:
-            raise Exception('无法获取文本信息')
+            #raise Exception('无法获取文本信息')
+            res = "无法获取信息，请及时查看后台"
+            return res
 
     def css_parse(self, html, css_ext):
         res = Selector(text=html).css(css_ext).extract()
@@ -35,7 +36,9 @@ class SelectorABC():
         if len(res) != 0:
             return res[0]
         else:
-            raise Exception('无法获取文本信息')
+            #raise Exception('无法获取文本信息')
+            res = "无法获取信息，请及时查看后台"
+            return res
 
     def json_parse(self, html, json_ext):
         try:
@@ -48,7 +51,9 @@ class SelectorABC():
         if len(res) != 0:
             return res
         else:
-            raise Exception('无法获取文本信息')
+            #raise Exception('无法获取文本信息')
+            res = "无法获取信息，请及时查看后台"
+            return res
 
     @abstractmethod
     def get_by_xpath(self):
