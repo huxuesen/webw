@@ -4,6 +4,8 @@ from collections import OrderedDict
 import requests
 from task.utils.selector.selector import SelectorABC as FatherSelector
 
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 class RequestsSelector(FatherSelector):
     def __init__(self, debug=False):
