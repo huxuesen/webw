@@ -27,7 +27,7 @@ class SelectorABC():
             return res[0]
         else:
             #raise Exception('无法获取文本信息')
-            res = "无法获取信息，请及时查看后台"
+            res = "出错了"
             return res
 
     def css_parse(self, html, css_ext):
@@ -37,7 +37,7 @@ class SelectorABC():
             return res[0]
         else:
             #raise Exception('无法获取文本信息')
-            res = "无法获取信息，请及时查看后台"
+            res = "出错了"
             return res
 
     def json_parse(self, html, json_ext):
@@ -52,7 +52,7 @@ class SelectorABC():
             return res
         else:
             #raise Exception('无法获取文本信息')
-            res = "无法获取信息，请及时查看后台"
+            res = "出错了"
             return res
 
     @abstractmethod
