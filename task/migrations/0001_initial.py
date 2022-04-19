@@ -61,7 +61,7 @@ class Migration(migrations.Migration):
                 ('create_time', models.DateTimeField(auto_now_add=True, verbose_name='创建时间')),
                 ('regular_expression', models.CharField(blank=True, max_length=500, verbose_name='正则表达式')),
                 ('rule', models.CharField(blank=True, max_length=500, verbose_name='监控规则')),
-                ('headers', models.TextField(blank=True, verbose_name='自定义请求头')),
+                ('headers', models.TextField(default={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30"}, verbose_name='自定义请求头')),
                 ('notification', models.ManyToManyField(to='setting.Notification', verbose_name='通知方式')),
             ],
             options={
