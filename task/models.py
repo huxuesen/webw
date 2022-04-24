@@ -153,7 +153,7 @@ class Task(models.Model):
                             blank=True,
                             help_text='')
     headers = models.TextField(verbose_name='自定义请求头',
-                               default={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30"},
+                               default='{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30"}',
                                help_text='')
 
     class Meta:
