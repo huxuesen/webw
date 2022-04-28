@@ -45,7 +45,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'setting/static'),
 ]
 
-CSRF_TRUSTED_ORIGINS = ['*']
+CSRF_TRUSTED_ORIGINS = options['CSRF_TRUSTED_ORIGINS']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
