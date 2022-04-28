@@ -5,6 +5,7 @@ ENV LANG C.UTF-8
 ENV PORT 5000
 ENV USERNAME admin
 ENV PASSWORD admin
+ENV CSRF_TRUSTED_ORIGINS example.com
 ENV OPENSSL_CONF /etc/ssl/
 
 COPY . /app
@@ -25,4 +26,4 @@ chrpath libssl-dev libxft-dev libfreetype6 libfreetype6-dev libfontconfig1 libfo
 EXPOSE $PORT
 
 RUN chmod +x run.sh
-CMD ./run.sh $PORT $USERNAME $PASSWORD
+CMD ./run.sh $PORT $USERNAME $PASSWORD  $PASSWORD $CSRF_TRUSTED_ORIGINS
