@@ -3,11 +3,11 @@ Markdown==3.3.6
 Scrapy==2.6.1
 selenium==3.141.0
 html5lib==1.1
-Twisted==22.2.0
+Twisted==22.4.0
 feedparser
 func_timeout==4.3.5
 jsonpath==0.82
 django
-django-simpleui==2022.3.19
+django-simpleui==2022.4.9
 django-apscheduler==0.3.0
-django-import-export==2.7.1
+django-import-export==2.8.0
