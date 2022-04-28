@@ -1,0 +1,624 @@
+2022-04-24 17:06:08,493 [Thread-2 (process_request_thread):3196] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-04-24 17:06:08,502 [Thread-2 (process_request_thread):3196] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-04-24 17:06:13,145 [ThreadPoolExecutor-1_0:16608] [views:ping:9] [INFO]- pong!!
+2022-04-24 17:06:20,921 [ThreadPoolExecutor-1_0:16608] [scheduler:monitor:135] [INFO]- rule: , content: 地面天气差，SpaceX“太空游客”滞留国际空间站, last_content: , last_content2: , status_code: 3
+2022-04-24 17:06:21,059 [ThreadPoolExecutor-1_0:16608] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-04-24 17:06:33,340 [ThreadPoolExecutor-1_0:16608] [scheduler:monitor:135] [INFO]- rule: , content: 地面天气差，SpaceX“太空游客”滞留国际空间站, last_content: , last_content2: , status_code: 0
+2022-04-24 17:06:33,373 [ThreadPoolExecutor-1_0:16608] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-04-24 17:13:24,541 [ThreadPoolExecutor-1_0:9268] [views:ping:9] [INFO]- pong!!
+2022-04-24 17:13:27,177 [Thread-4 (process_request_thread):14412] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-04-24 17:13:27,181 [Thread-4 (process_request_thread):14412] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-04-24 17:14:04,471 [Thread-4 (process_request_thread):14412] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-04-24 17:14:04,472 [Thread-4 (process_request_thread):14412] [models:save:190] [INFO]- task_1更新
+2022-04-24 17:14:16,837 [ThreadPoolExecutor-1_0:9268] [scheduler:monitor:135] [INFO]- rule: , content: 紫光国微：车规级安全芯片已小批量导入市场，会逐步贡献收入, last_content: , last_content2: , status_code: 3
+2022-04-24 17:14:16,974 [ThreadPoolExecutor-1_0:9268] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-04-24 17:14:24,547 [ThreadPoolExecutor-1_0:9268] [views:ping:9] [INFO]- pong!!
+2022-04-24 17:14:29,309 [ThreadPoolExecutor-1_0:9268] [scheduler:monitor:135] [INFO]- rule: , content: 紫光国微：车规级安全芯片已小批量导入市场，会逐步贡献收入, last_content: , last_content2: , status_code: 0
+2022-04-24 17:14:29,330 [ThreadPoolExecutor-1_0:9268] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-04-24 17:14:41,577 [ThreadPoolExecutor-1_0:9268] [scheduler:monitor:135] [INFO]- rule: , content: 紫光国微：车规级安全芯片已小批量导入市场，会逐步贡献收入, last_content: , last_content2: , status_code: 0
+2022-04-24 17:14:41,608 [ThreadPoolExecutor-1_0:9268] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-04-24 17:25:46,415 [ThreadPoolExecutor-1_0:25560] [views:ping:9] [INFO]- pong!!
+2022-04-24 17:25:57,556 [Thread-1 (process_request_thread):11808] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-04-24 17:25:57,561 [Thread-1 (process_request_thread):11808] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-04-24 17:26:46,446 [ThreadPoolExecutor-1_1:3660] [views:ping:9] [INFO]- pong!!
+2022-04-24 17:26:46,567 [ThreadPoolExecutor-1_0:25560] [scheduler:monitor:191] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\connectionpool.py", line 994, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\connection.py", line 364, in connect
+    self.sock = conn = self._connect_tls_proxy(hostname, conn)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\connection.py", line 499, in _connect_tls_proxy
+    socket = ssl_wrap_socket(
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\util\ssl_.py", line 453, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\util\ssl_.py", line 495, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "C:\Users\huxue\.conda\envs\webw\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\huxue\.conda\envs\webw\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\huxue\.conda\envs\webw\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+FileNotFoundError: [Errno 2] No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.ithome.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', FileNotFoundError(2, 'No such file or directory')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\webw\task\utils\scheduler.py", line 129, in monitor
+    content = get_content(url, is_chrome, selector_type, selector,
+  File "C:\Users\huxue\Desktop\webw\task\utils\extract_info.py", line 62, in get_content
+    content_dict = selector_handler.get_by_xpath(url, selector_dict, headers)
+  File "C:\Users\huxue\Desktop\webw\task\utils\selector\request_selector.py", line 28, in get_by_xpath
+    html = self.get_html(url, headers)
+  File "C:\Users\huxue\Desktop\webw\task\utils\selector\request_selector.py", line 20, in get_html
+    r = requests.get(url, headers=header_dict, verify=False)    #关闭ssl验证。
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='www.ithome.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', FileNotFoundError(2, 'No such file or directory')))
+
+2022-04-24 17:26:46,596 [ThreadPoolExecutor-1_0:25560] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-04-24 17:26:58,719 [ThreadPoolExecutor-1_1:3660] [scheduler:monitor:191] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\connectionpool.py", line 994, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\connection.py", line 364, in connect
+    self.sock = conn = self._connect_tls_proxy(hostname, conn)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\connection.py", line 499, in _connect_tls_proxy
+    socket = ssl_wrap_socket(
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\util\ssl_.py", line 453, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\util\ssl_.py", line 495, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "C:\Users\huxue\.conda\envs\webw\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\huxue\.conda\envs\webw\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\huxue\.conda\envs\webw\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+FileNotFoundError: [Errno 2] No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.ithome.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', FileNotFoundError(2, 'No such file or directory')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\webw\task\utils\scheduler.py", line 129, in monitor
+    content = get_content(url, is_chrome, selector_type, selector,
+  File "C:\Users\huxue\Desktop\webw\task\utils\extract_info.py", line 62, in get_content
+    content_dict = selector_handler.get_by_xpath(url, selector_dict, headers)
+  File "C:\Users\huxue\Desktop\webw\task\utils\selector\request_selector.py", line 28, in get_by_xpath
+    html = self.get_html(url, headers)
+  File "C:\Users\huxue\Desktop\webw\task\utils\selector\request_selector.py", line 20, in get_html
+    r = requests.get(url, headers=header_dict, verify=False)    #关闭ssl验证。
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='www.ithome.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', FileNotFoundError(2, 'No such file or directory')))
+
+2022-04-24 17:26:58,745 [ThreadPoolExecutor-1_1:3660] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-04-24 17:27:10,895 [ThreadPoolExecutor-1_0:25560] [scheduler:monitor:191] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\connectionpool.py", line 994, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\connection.py", line 364, in connect
+    self.sock = conn = self._connect_tls_proxy(hostname, conn)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\connection.py", line 499, in _connect_tls_proxy
+    socket = ssl_wrap_socket(
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\util\ssl_.py", line 453, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\util\ssl_.py", line 495, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "C:\Users\huxue\.conda\envs\webw\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\huxue\.conda\envs\webw\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\huxue\.conda\envs\webw\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+FileNotFoundError: [Errno 2] No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.ithome.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', FileNotFoundError(2, 'No such file or directory')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\webw\task\utils\scheduler.py", line 129, in monitor
+    content = get_content(url, is_chrome, selector_type, selector,
+  File "C:\Users\huxue\Desktop\webw\task\utils\extract_info.py", line 62, in get_content
+    content_dict = selector_handler.get_by_xpath(url, selector_dict, headers)
+  File "C:\Users\huxue\Desktop\webw\task\utils\selector\request_selector.py", line 28, in get_by_xpath
+    html = self.get_html(url, headers)
+  File "C:\Users\huxue\Desktop\webw\task\utils\selector\request_selector.py", line 20, in get_html
+    r = requests.get(url, headers=header_dict, verify=False)    #关闭ssl验证。
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\huxue\.conda\envs\webw\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='www.ithome.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', FileNotFoundError(2, 'No such file or directory')))
+
+2022-04-24 17:27:10,925 [ThreadPoolExecutor-1_0:25560] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-04-24 17:27:23,276 [ThreadPoolExecutor-1_1:3660] [scheduler:monitor:135] [INFO]- rule: , content: 消息称非公版英伟达 RTX 4090 功耗超 700W，1000W+ 电源将成标配, last_content: , last_content2: , status_code: 3
+2022-04-24 17:27:23,391 [ThreadPoolExecutor-1_1:3660] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-04-24 17:27:35,710 [ThreadPoolExecutor-1_0:25560] [scheduler:monitor:135] [INFO]- rule: , content: 消息称非公版英伟达 RTX 4090 功耗超 700W，1000W+ 电源将成标配, last_content: , last_content2: , status_code: 0
+2022-04-24 17:27:35,737 [ThreadPoolExecutor-1_0:25560] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-04-24 17:27:46,410 [ThreadPoolExecutor-1_1:3660] [views:ping:9] [INFO]- pong!!
+2022-04-24 17:27:48,077 [ThreadPoolExecutor-1_0:25560] [scheduler:monitor:135] [INFO]- rule: , content: 消息称非公版英伟达 RTX 4090 功耗超 700W，1000W+ 电源将成标配, last_content: , last_content2: , status_code: 0
+2022-04-24 17:27:48,114 [ThreadPoolExecutor-1_0:25560] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-04-24 18:00:08,395 [ThreadPoolExecutor-1_0:12448] [views:ping:9] [INFO]- pong!!
+2022-04-24 18:01:08,441 [ThreadPoolExecutor-1_0:12448] [views:ping:9] [INFO]- pong!!
+2022-04-24 18:02:08,417 [ThreadPoolExecutor-1_0:12448] [views:ping:9] [INFO]- pong!!
+2022-04-24 18:08:38,176 [ThreadPoolExecutor-1_0:7056] [views:ping:9] [INFO]- pong!!
+2022-04-24 18:09:38,184 [ThreadPoolExecutor-1_0:7056] [views:ping:9] [INFO]- pong!!
+2022-04-24 18:10:38,202 [ThreadPoolExecutor-1_0:7056] [views:ping:9] [INFO]- pong!!
+2022-04-24 18:11:38,205 [ThreadPoolExecutor-1_0:7056] [views:ping:9] [INFO]- pong!!
+2022-04-24 18:12:38,181 [ThreadPoolExecutor-1_0:7056] [views:ping:9] [INFO]- pong!!
+2022-04-24 18:13:38,220 [ThreadPoolExecutor-1_0:7056] [views:ping:9] [INFO]- pong!!
+2022-04-24 18:14:38,216 [ThreadPoolExecutor-1_0:7056] [views:ping:9] [INFO]- pong!!
+2022-04-24 18:15:38,221 [ThreadPoolExecutor-1_0:7056] [views:ping:9] [INFO]- pong!!
+2022-04-24 18:16:38,218 [ThreadPoolExecutor-1_0:7056] [views:ping:9] [INFO]- pong!!
+2022-04-24 18:17:38,188 [ThreadPoolExecutor-1_0:7056] [views:ping:9] [INFO]- pong!!
+2022-04-24 18:18:38,201 [ThreadPoolExecutor-1_0:7056] [views:ping:9] [INFO]- pong!!
+2022-04-24 18:19:38,178 [ThreadPoolExecutor-1_0:7056] [views:ping:9] [INFO]- pong!!
+2022-04-24 18:20:38,193 [ThreadPoolExecutor-1_0:7056] [views:ping:9] [INFO]- pong!!
+2022-04-24 19:26:38,230 [ThreadPoolExecutor-1_0:7056] [views:ping:9] [INFO]- pong!!
+2022-04-24 19:27:38,237 [ThreadPoolExecutor-1_0:7056] [views:ping:9] [INFO]- pong!!
+2022-04-24 19:28:38,236 [ThreadPoolExecutor-1_0:7056] [views:ping:9] [INFO]- pong!!
+2022-04-24 19:29:38,226 [ThreadPoolExecutor-1_0:7056] [views:ping:9] [INFO]- pong!!
+2022-04-24 19:30:38,192 [ThreadPoolExecutor-1_0:7056] [views:ping:9] [INFO]- pong!!
+2022-04-25 09:21:45,937 [ThreadPoolExecutor-1_0:4832] [views:ping:9] [INFO]- pong!!
+2022-04-25 09:22:45,994 [ThreadPoolExecutor-1_0:4832] [views:ping:9] [INFO]- pong!!
+2022-04-25 09:27:14,492 [ThreadPoolExecutor-1_0:16220] [views:ping:9] [INFO]- pong!!
+2022-04-25 09:28:14,556 [ThreadPoolExecutor-1_0:16220] [views:ping:9] [INFO]- pong!!
+2022-04-25 09:29:14,508 [ThreadPoolExecutor-1_0:16220] [views:ping:9] [INFO]- pong!!
+2022-04-25 09:30:14,547 [ThreadPoolExecutor-1_0:16220] [views:ping:9] [INFO]- pong!!
+2022-04-25 09:32:46,450 [ThreadPoolExecutor-1_0:15764] [views:ping:9] [INFO]- pong!!
+2022-04-25 14:48:17,319 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 14:49:17,374 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 14:50:17,339 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 14:51:17,327 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 14:52:17,342 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 14:53:17,324 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 14:54:17,340 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 14:55:17,343 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 14:56:17,363 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 14:57:17,372 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 14:58:17,358 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 14:59:17,335 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:00:17,362 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:01:17,363 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:02:17,362 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:03:17,372 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:04:17,365 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:05:17,371 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:06:17,379 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:07:17,366 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:08:17,373 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:09:17,365 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:10:17,369 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:11:17,361 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:14:17,346 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:15:17,352 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:16:17,367 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:17:17,367 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:18:17,365 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:19:17,357 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:20:17,344 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:21:17,369 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:22:17,365 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:23:17,373 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:24:17,366 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:25:17,351 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:26:17,340 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:27:17,370 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:28:17,369 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:29:17,353 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:30:17,351 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:31:17,374 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:32:17,386 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:33:17,364 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:34:17,372 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:35:17,362 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:36:17,356 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:37:17,371 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:38:17,367 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:39:17,358 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:40:17,348 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:41:17,344 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:42:17,369 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:43:17,367 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:44:17,369 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:45:17,352 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:46:17,338 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:47:17,331 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:48:17,374 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:49:17,338 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:50:17,338 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:51:17,348 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:52:17,373 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:53:17,382 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:54:17,360 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:55:17,338 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:56:17,371 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:57:17,340 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:58:17,343 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 15:59:17,344 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:00:17,340 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:01:17,370 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:02:17,354 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:03:17,332 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:04:17,366 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:05:17,358 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:06:17,343 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:07:17,361 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:08:17,358 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:09:17,361 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:10:17,363 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:11:17,356 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:12:17,371 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:13:17,341 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:14:17,345 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:15:17,350 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:16:17,349 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:17:17,347 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:18:17,395 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:19:17,364 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:20:17,365 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:21:17,367 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:22:17,347 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:23:17,336 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:24:17,363 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:25:17,358 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:26:17,354 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:27:17,353 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:28:17,355 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:29:17,357 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:30:17,374 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:31:17,347 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:32:17,364 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:33:17,363 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:34:17,377 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:35:17,362 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:36:17,347 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:37:17,366 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:38:17,391 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:39:17,395 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:40:17,370 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:41:17,346 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:42:17,348 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:43:17,365 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:44:17,349 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:45:17,369 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:46:17,373 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:47:17,369 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:48:17,347 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:49:17,329 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:50:17,348 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:51:17,348 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:52:17,363 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:53:17,371 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:54:17,364 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:55:17,351 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:56:17,369 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:57:17,362 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:58:17,335 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 16:59:17,365 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:00:17,352 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:01:17,351 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:02:17,359 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:03:17,374 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:04:17,352 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:05:17,367 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:06:17,366 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:07:17,409 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:08:17,370 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:09:17,363 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:10:17,362 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:11:17,374 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:12:17,362 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:13:17,366 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:14:17,346 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:15:17,331 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:16:17,337 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:17:17,365 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:18:17,357 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:19:17,358 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:20:17,358 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:21:17,349 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:22:17,357 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:23:17,389 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:24:17,376 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:25:17,387 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:26:17,369 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:27:17,364 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:28:17,355 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:29:17,358 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:30:17,373 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:31:17,358 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:32:17,351 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:33:17,354 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:34:17,383 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:35:17,363 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:36:17,366 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:37:17,365 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:38:17,391 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:39:17,369 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:40:17,365 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:41:17,362 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:42:17,367 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:43:17,364 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:44:17,345 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:45:17,349 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:46:17,373 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:47:17,369 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:48:17,352 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:49:17,366 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:50:17,342 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:51:17,374 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:52:17,344 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:53:17,367 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:54:17,389 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:55:17,377 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:56:17,388 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:57:17,371 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:58:17,375 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 17:59:17,373 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:00:17,360 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:01:17,368 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:02:17,347 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:03:17,351 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:04:17,364 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:05:17,362 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:06:17,374 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:07:17,346 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:08:17,372 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:09:17,357 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:10:17,366 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:11:17,328 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:12:17,367 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:13:17,357 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:14:17,379 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:15:17,373 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:16:17,365 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:17:17,369 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:18:17,368 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:19:17,386 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:20:17,369 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:21:17,369 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:22:17,368 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:23:17,377 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:24:17,351 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:25:17,341 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:26:17,354 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:27:17,342 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:28:17,353 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:29:17,342 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:30:17,333 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:31:17,351 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:32:17,366 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:33:17,352 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 18:34:17,356 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:37:17,378 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:38:17,331 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:39:17,384 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:40:17,374 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:41:17,349 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:42:17,372 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:43:17,353 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:44:17,363 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:45:17,355 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:46:17,359 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:47:17,391 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:48:17,389 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:49:17,399 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:50:17,388 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:51:17,390 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:52:17,389 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:53:17,393 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:54:17,389 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:55:17,391 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:56:17,402 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:57:17,394 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:58:17,385 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 20:59:17,396 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:00:17,399 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:01:17,374 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:02:17,391 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:03:17,390 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:04:17,391 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:05:17,391 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:06:17,407 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:07:17,395 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:08:17,389 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:09:17,407 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:10:17,398 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:11:17,386 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:12:17,371 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:13:17,348 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:14:17,386 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:15:17,381 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:16:17,390 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:17:17,347 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:18:17,386 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:19:17,390 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:20:17,387 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:21:17,376 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:22:17,393 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:23:17,388 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:24:17,400 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:25:17,384 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:26:17,359 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:27:17,381 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:28:17,403 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:29:17,393 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:30:17,406 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:31:17,394 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:32:17,395 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:33:17,382 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:34:17,385 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:35:17,390 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:36:17,383 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:37:17,388 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:38:17,402 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:39:17,415 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:40:17,345 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:41:17,399 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:42:17,356 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:43:17,385 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:44:17,392 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:45:17,389 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:46:17,382 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:47:17,359 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:48:17,384 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:49:17,373 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:50:17,399 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:51:17,408 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:52:17,382 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:53:17,390 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:54:17,354 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:55:17,391 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:56:17,343 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:57:17,348 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:58:17,362 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 21:59:17,363 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:00:17,381 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:01:17,395 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:02:17,397 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:03:17,392 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:04:17,391 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:05:17,389 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:06:17,382 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:07:17,365 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:08:17,411 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:09:17,398 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:10:17,372 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:11:17,386 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:12:17,352 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:13:17,384 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:14:17,382 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:15:17,390 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:16:17,390 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:17:17,404 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:18:17,365 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:19:17,408 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:20:17,409 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:21:17,394 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:22:17,402 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:23:17,400 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:24:17,406 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:25:17,395 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:26:17,396 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:27:17,349 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:28:17,380 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:29:17,404 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:30:17,387 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:31:17,388 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:32:17,407 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:33:17,387 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:34:17,406 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:35:17,375 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:36:17,413 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:37:17,387 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:38:17,390 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:39:17,396 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:40:17,391 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:41:17,393 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:42:17,381 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:43:17,354 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:44:17,346 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:45:17,357 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:46:17,341 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:47:17,349 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:48:17,330 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:49:17,352 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:50:17,349 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:51:17,357 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:52:17,371 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:53:17,370 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:54:17,376 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:55:17,374 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:56:17,343 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:57:17,351 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:58:17,372 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 22:59:17,360 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:00:17,330 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:01:17,350 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:02:17,344 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:03:17,349 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:04:17,348 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:05:17,354 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:06:17,347 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:07:17,343 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:08:17,345 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:09:17,330 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:10:17,349 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:11:17,415 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:12:17,392 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:13:17,353 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:14:17,390 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:15:17,401 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:16:17,375 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:17:17,411 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:18:17,390 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:19:17,389 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:20:17,391 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:21:17,406 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:22:17,379 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:23:17,406 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:24:17,387 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:25:17,409 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:26:17,390 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:27:17,392 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:28:17,402 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
+2022-04-25 23:29:17,390 [ThreadPoolExecutor-1_0:10668] [views:ping:9] [INFO]- pong!!
