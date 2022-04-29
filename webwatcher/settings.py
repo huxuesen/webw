@@ -45,7 +45,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'setting/static'),
 ]
 
-CSRF_TRUSTED_ORIGINS = options['CSRF_TRUSTED_ORIGINS']
+CSRF_TRUSTED_ORIGINS = ['https://p.huxx.cf', 'https://1.huxx.cf', 'https://2.huxx.cf', 'https://3.huxx.cf', 'https://4.huxx.cf', 'https://5.huxx.cf', 'https://6.huxx.cf', 'https://7.huxx.cf', 'https://8.huxx.cf', 'https://9.huxx.cf', 'https://liu.huxx.cf', ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
