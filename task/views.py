@@ -20,3 +20,4 @@ scheduler.add_job(func=ping,
                   replace_existing=True)
 register_events(scheduler)
 scheduler.start()
+logging.getLogger('apscheduler.executors.default').setLevel(logging.WARNING)
