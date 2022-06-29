@@ -1,6 +1,7 @@
 .vscode/*
 setting/management/__pycache__/*
 db/db.sqlite3
+tests/ceshi.py
 static/*
 task/utils/notification/__pycache__/*
 setting/management/commands/__pycache__/*
