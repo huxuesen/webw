@@ -63,10 +63,10 @@ class PhantomJSSelector(FatherSelector):
         return result
     
     def get_by_json(self, url, selector_dict, headers=None):
-        html = self.get_html(url, headers)
+        html = self.get_html(url, headers).replace('({"resp', '{"resp').replace('":{}}})', '":{}}}') #.replace后的代码解决了标普出错
 
         result = OrderedDict()
         for key, json_ext in selector_dict.items():
-            result[key] = self.json_parse(html, json_ext)
+            result[key] = self.json_parse(html, json_ext).replace('[', '').replace(']', '').replace('"', '') #.replace后代码为了去掉jsonpath检测方式的“[]”
 
         return result

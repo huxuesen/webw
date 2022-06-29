@@ -27,16 +27,16 @@ class SelectorABC():
         if len(res) != 0:
             return res[0]
         else:
-            raise Exception('无法获取文本信息')
-
+            #raise Exception('无法获取文本信息')
+            res[0] = "出错" #出错也通知
     def css_parse(self, html, css_ext):
         res = Selector(text=html).css(css_ext).extract()
 
         if len(res) != 0:
             return res[0]
         else:
-            raise Exception('无法获取文本信息')
-
+            #raise Exception('无法获取文本信息')
+            res[0] = "出错" #出错也通知
     def json_parse(self, html, json_ext):
         try:
             resJson = json.loads(html)
@@ -48,7 +48,8 @@ class SelectorABC():
         if len(res) != 0:
             return res
         else:
-            raise Exception('无法获取文本信息')
+            #raise Exception('无法获取文本信息')
+            res[0] = "出错" #出错也通知
 
     @abstractmethod
     def get_by_xpath(self):
