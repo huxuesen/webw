@@ -1,6 +1,7 @@
 .vscode/*
 setting/management/__pycache__/*
-db/*
+db/log/*
+db/db.sqlite3
 static/*
 task/utils/notification/__pycache__/*
 setting/management/commands/__pycache__/*
