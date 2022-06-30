@@ -28,7 +28,9 @@ class SelectorABC():
             return res[0]
         else:
             #raise Exception('无法获取文本信息')
-            res[0] = "出错" #出错也通知
+            res = "出错" #出错也通知
+            return res
+
     def css_parse(self, html, css_ext):
         res = Selector(text=html).css(css_ext).extract()
 
@@ -36,7 +38,9 @@ class SelectorABC():
             return res[0]
         else:
             #raise Exception('无法获取文本信息')
-            res[0] = "出错" #出错也通知
+            res = "出错"
+            return res
+
     def json_parse(self, html, json_ext):
         try:
             resJson = json.loads(html)
@@ -49,7 +53,8 @@ class SelectorABC():
             return res
         else:
             #raise Exception('无法获取文本信息')
-            res[0] = "出错" #出错也通知
+            res = "出错"  #出错也通知
+            return res
 
     @abstractmethod
     def get_by_xpath(self):

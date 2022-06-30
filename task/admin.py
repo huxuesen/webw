@@ -17,7 +17,7 @@ class TaskStatusAdmin(admin.ModelAdmin):
         'task_type'
     ]
     list_editable = ['task_status']
-    list_per_page = 20
+    list_per_page = 25 #改为每页显示25条
     list_display_links = None
 
     actions_on_top = True
@@ -50,7 +50,7 @@ class TaskAdmin(ImportExportModelAdmin):
                      'regular_expression', 'rule', 'headers', 'selector')
     filter_horizontal = ('notification', )
 
-    list_per_page = 20
+    list_per_page = 25 #改为每页显示25条
 
     def has_delete_permission(self, request, obj=None):
         return False
@@ -93,7 +93,7 @@ class RSSTaskAdmin(ImportExportModelAdmin):
     list_editable = ('name', 'url', 'frequency')
     filter_horizontal = ('notification', )
 
-    list_per_page = 20
+    list_per_page = 25 #改为每页显示25条
 
     def has_delete_permission(self, request, obj=None):
         return False
