@@ -1,0 +1,474 @@
+2022-07-06 17:03:26,468 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-07-06 17:03:26,474 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-07-06 17:03:26,484 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_2
+2022-07-06 17:03:26,488 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_2
+2022-07-06 17:03:26,495 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_3
+2022-07-06 17:03:26,501 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_3
+2022-07-06 17:03:26,509 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_4
+2022-07-06 17:03:26,513 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_4
+2022-07-06 17:03:26,521 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_5
+2022-07-06 17:03:26,524 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_5
+2022-07-06 17:03:26,532 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_6
+2022-07-06 17:03:26,538 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_6
+2022-07-06 17:03:26,545 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_7
+2022-07-06 17:03:26,550 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_7
+2022-07-06 17:03:26,555 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_8
+2022-07-06 17:03:26,558 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_8
+2022-07-06 17:03:26,565 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_9
+2022-07-06 17:03:26,570 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_9
+2022-07-06 17:03:26,575 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_10
+2022-07-06 17:03:26,580 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_10
+2022-07-06 17:03:26,588 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_11
+2022-07-06 17:03:26,592 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_11
+2022-07-06 17:03:26,599 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_12
+2022-07-06 17:03:26,604 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_12
+2022-07-06 17:03:26,612 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_13
+2022-07-06 17:03:26,618 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_13
+2022-07-06 17:03:26,625 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_14
+2022-07-06 17:03:26,630 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_14
+2022-07-06 17:03:26,638 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_15
+2022-07-06 17:03:26,642 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_15
+2022-07-06 17:03:26,649 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_16
+2022-07-06 17:03:26,656 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_16
+2022-07-06 17:03:26,663 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_17
+2022-07-06 17:03:26,670 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_17
+2022-07-06 17:03:26,677 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_18
+2022-07-06 17:03:26,683 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_18
+2022-07-06 17:03:28,662 [ThreadPoolExecutor-0_0:15852] [views:ping:9] [INFO]- pong!!
+2022-07-06 17:03:30,743 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-07-06 17:03:30,749 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-07-06 17:03:30,756 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_2
+2022-07-06 17:03:30,760 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_2
+2022-07-06 17:03:30,768 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_3
+2022-07-06 17:03:30,773 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_3
+2022-07-06 17:03:30,781 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_4
+2022-07-06 17:03:30,786 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_4
+2022-07-06 17:03:30,792 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_5
+2022-07-06 17:03:30,796 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_5
+2022-07-06 17:03:30,805 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_6
+2022-07-06 17:03:30,808 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_6
+2022-07-06 17:03:30,816 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_7
+2022-07-06 17:03:30,820 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_7
+2022-07-06 17:03:30,825 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_8
+2022-07-06 17:03:30,829 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_8
+2022-07-06 17:03:30,840 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_9
+2022-07-06 17:03:30,844 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_9
+2022-07-06 17:03:30,851 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_10
+2022-07-06 17:03:30,856 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_10
+2022-07-06 17:03:30,864 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_11
+2022-07-06 17:03:30,869 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_11
+2022-07-06 17:03:30,875 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_12
+2022-07-06 17:03:30,879 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_12
+2022-07-06 17:03:30,888 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_13
+2022-07-06 17:03:30,893 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_13
+2022-07-06 17:03:30,902 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_14
+2022-07-06 17:03:30,908 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_14
+2022-07-06 17:03:30,916 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_15
+2022-07-06 17:03:30,922 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_15
+2022-07-06 17:03:30,929 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_16
+2022-07-06 17:03:30,935 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_16
+2022-07-06 17:03:30,942 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_17
+2022-07-06 17:03:30,947 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_17
+2022-07-06 17:03:30,954 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_18
+2022-07-06 17:03:30,960 [Thread-4:10264] [scheduler:add_job:219] [INFO]- 添加定时任务task_18
+2022-07-06 17:04:28,722 [ThreadPoolExecutor-0_2:12120] [views:ping:9] [INFO]- pong!!
+2022-07-06 17:04:31,211 [ThreadPoolExecutor-0_3:20456] [scheduler:monitor:191] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\selenium\webdriver\common\service.py", line 72, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "C:\Users\huxue\.conda\envs\webw14\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\huxue\.conda\envs\webw14\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 129, in monitor
+    content = get_content(url, is_chrome, selector_type, selector,
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\extract_info.py", line 62, in get_content
+    content_dict = selector_handler.get_by_xpath(url, selector_dict,
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\selector\phantomjs_selector.py", line 48, in get_by_xpath
+    html = self.get_html(url, headers)
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\selector\phantomjs_selector.py", line 35, in get_html
+    driver = webdriver.PhantomJS()
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\selenium\webdriver\phantomjs\webdriver.py", line 56, in __init__
+    self.service.start()
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\selenium\webdriver\common\service.py", line 81, in start
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: 'phantomjs' executable needs to be in PATH. 
+
+
+2022-07-06 17:04:31,291 [ThreadPoolExecutor-0_3:20456] [scheduler:add_job:219] [INFO]- 添加定时任务task_4
+2022-07-06 17:04:32,957 [ThreadPoolExecutor-0_2:12120] [scheduler:monitor:135] [INFO]- rule: , content: 出错
+https://www.wto.org出错
+https://www.wto.org/english/forums_e/media_e/xmedia_e/xmedia_e.htm, last_content: , last_content2: , status_code: 3
+2022-07-06 17:04:33,311 [ThreadPoolExecutor-0_6:21872] [scheduler:monitor:135] [INFO]- rule: , content: The future monetary system
+https://www.bis.org/speeches/sp220626b.htm
+https://www.bis.org/mgmtspeeches/index.htm, last_content: , last_content2: , status_code: 3
+2022-07-06 17:04:33,506 [ThreadPoolExecutor-0_0:15852] [scheduler:monitor:135] [INFO]- rule: , content: Global Public Investor 2022
+https://www.omfif.org/omfif-reports/global-public-investor-2022/
+https://www.omfif.org/omfif-reports/, last_content: , last_content2: , status_code: 3
+2022-07-06 17:04:33,520 [ThreadPoolExecutor-0_1:23416] [scheduler:monitor:135] [INFO]- rule: , content: Social bonds becoming more important in reserves portfolios
+https://www.omfif.org/2022/07/social-bonds-becoming-more-important-in-reserves-portfolios/
+https://www.omfif.org/
+测试, last_content: , last_content2: , status_code: 3
+2022-07-06 17:04:33,543 [ThreadPoolExecutor-0_3:20456] [scheduler:monitor:135] [INFO]- rule: , content: How capital expenditure management can drive performance
+<time>June 29, 2022</time>
+Economic conditions outlook, June 2022
+<time>June 29, 2022</time>
+Fear factor: Overcoming human barriers to innovation
+<time>June 3, 2022</time>
+https://www.mckinsey.com/business-functions/strategy-and-corporate-finance/our-insights, last_content: , last_content2: , status_code: 3
+2022-07-06 17:04:33,901 [ThreadPoolExecutor-0_4:8672] [scheduler:monitor:135] [INFO]- rule: , content:  05 July 2022   Business activity revives across manufacturing and services in June, but demand headwinds persist amid ongoing COVID-19 restrictions
+https://ihsmarkit.com/research-analysis/business-activity-revives-across-manufacturing-and-services-in-june-June22.html
+ 05 July 2022   Eurozone PMI signals growth in June but downturn risks rise amid weakening leading indicators
+https://ihsmarkit.com/research-analysis/eurozone-pmi-signals-growth-in-june-but-downturn-risks-rise-Jul22.html
+ 04 July 2022   Week Ahead Economic Preview: Week of 04 July 2022
+https://ihsmarkit.com/research-analysis/week-ahead-economic-preview-week-of-04-july-2022.html
+https://ihsmarkit.com/research-analysis/pmi.html, last_content: , last_content2: , status_code: 3
+2022-07-06 17:04:34,565 [ThreadPoolExecutor-0_5:18660] [scheduler:monitor:135] [INFO]- rule: , content:  05 July 2022   Banking risk monthly outlook: July 2022
+https://ihsmarkit.com/research-analysis/banking-risk-monthly-outlook-july-2022.html
+ 05 July 2022   Morocco’s Anchois discovery
+https://ihsmarkit.com/research-analysis/moroccos-anchois-discovery.html
+ 05 July 2022   Chartis RiskTech BuySide 50: Financial Risk Analytics Wins Investment/Market Risk Category
+https://ihsmarkit.com/research-analysis/chartis-risktech-buyside-50-financial-risk-analytics-wins-inve.html
+https://ihsmarkit.com/research-analysis/index.html, last_content: , last_content2: , status_code: 3
+2022-07-06 17:04:35,196 [ThreadPoolExecutor-0_8:10632] [scheduler:monitor:135] [INFO]- rule: , content: 出错
+https://www.mckinsey.com出错
+https://www.mckinsey.com/featured-insights, last_content: , last_content2: , status_code: 3
+2022-07-06 17:04:37,285 [ThreadPoolExecutor-0_9:20676] [scheduler:monitor:135] [INFO]- rule: , content: Human capital at work: The value of experience
+https://www.mckinsey.com/business-functions/people-and-organizational-performance/our-insights/human-capital-at-work-the-value-of-experience
+https://www.mckinsey.com/mgi/overview, last_content: , last_content2: , status_code: 3
+2022-07-06 17:04:37,326 [ThreadPoolExecutor-0_7:23640] [scheduler:monitor:135] [INFO]- rule: , content: 出错
+https://www.mckinsey.com出错
+https://www.mckinsey.com/industries/financial-services/our-insights, last_content: , last_content2: , status_code: 3
+2022-07-06 17:04:47,952 [ThreadPoolExecutor-0_4:8672] [scheduler:monitor:186] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 151, in monitor
+    send_message(content, name, notifications)
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 90, in send_message
+    raise PartNotificationError('监测到变化，部分通知方式发送错误：' +
+task.utils.scheduler.PartNotificationError: 监测到变化，部分通知方式发送错误：Bark Exception: Exception('failed to get device token: failed to get [1t6GZbu4wKVXtCWYhDcmenN] device token from database');Bark Exception: Exception('failed to get device token: failed to get [15XL7jq4aX6ULWBkpK77WGN] device token from database');
+
+2022-07-06 17:04:47,997 [ThreadPoolExecutor-0_4:8672] [scheduler:add_job:219] [INFO]- 添加定时任务task_5
+2022-07-06 17:04:48,073 [ThreadPoolExecutor-0_8:10632] [scheduler:monitor:186] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 151, in monitor
+    send_message(content, name, notifications)
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 90, in send_message
+    raise PartNotificationError('监测到变化，部分通知方式发送错误：' +
+task.utils.scheduler.PartNotificationError: 监测到变化，部分通知方式发送错误：Bark Exception: Exception('failed to get device token: failed to get [1t6GZbu4wKVXtCWYhDcmenN] device token from database');Bark Exception: Exception('failed to get device token: failed to get [15XL7jq4aX6ULWBkpK77WGN] device token from database');
+
+2022-07-06 17:04:48,099 [ThreadPoolExecutor-0_8:10632] [scheduler:add_job:219] [INFO]- 添加定时任务task_9
+2022-07-06 17:04:48,194 [ThreadPoolExecutor-0_7:23640] [scheduler:monitor:186] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 151, in monitor
+    send_message(content, name, notifications)
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 90, in send_message
+    raise PartNotificationError('监测到变化，部分通知方式发送错误：' +
+task.utils.scheduler.PartNotificationError: 监测到变化，部分通知方式发送错误：Bark Exception: Exception('failed to get device token: failed to get [1t6GZbu4wKVXtCWYhDcmenN] device token from database');Bark Exception: Exception('failed to get device token: failed to get [15XL7jq4aX6ULWBkpK77WGN] device token from database');
+
+2022-07-06 17:04:48,219 [ThreadPoolExecutor-0_9:20676] [scheduler:monitor:186] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 151, in monitor
+    send_message(content, name, notifications)
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 90, in send_message
+    raise PartNotificationError('监测到变化，部分通知方式发送错误：' +
+task.utils.scheduler.PartNotificationError: 监测到变化，部分通知方式发送错误：Bark Exception: Exception('failed to get device token: failed to get [1t6GZbu4wKVXtCWYhDcmenN] device token from database');Bark Exception: Exception('failed to get device token: failed to get [15XL7jq4aX6ULWBkpK77WGN] device token from database');
+
+2022-07-06 17:04:48,224 [ThreadPoolExecutor-0_7:23640] [scheduler:add_job:219] [INFO]- 添加定时任务task_8
+2022-07-06 17:04:48,270 [ThreadPoolExecutor-0_9:20676] [scheduler:add_job:219] [INFO]- 添加定时任务task_10
+2022-07-06 17:04:48,350 [ThreadPoolExecutor-0_6:21872] [scheduler:monitor:186] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 151, in monitor
+    send_message(content, name, notifications)
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 90, in send_message
+    raise PartNotificationError('监测到变化，部分通知方式发送错误：' +
+task.utils.scheduler.PartNotificationError: 监测到变化，部分通知方式发送错误：Bark Exception: Exception('failed to get device token: failed to get [1t6GZbu4wKVXtCWYhDcmenN] device token from database');Bark Exception: Exception('failed to get device token: failed to get [15XL7jq4aX6ULWBkpK77WGN] device token from database');
+
+2022-07-06 17:04:48,378 [ThreadPoolExecutor-0_6:21872] [scheduler:add_job:219] [INFO]- 添加定时任务task_7
+2022-07-06 17:04:48,389 [ThreadPoolExecutor-0_1:23416] [scheduler:monitor:186] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 151, in monitor
+    send_message(content, name, notifications)
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 90, in send_message
+    raise PartNotificationError('监测到变化，部分通知方式发送错误：' +
+task.utils.scheduler.PartNotificationError: 监测到变化，部分通知方式发送错误：Bark Exception: Exception('failed to get device token: failed to get [1t6GZbu4wKVXtCWYhDcmenN] device token from database');Bark Exception: Exception('failed to get device token: failed to get [15XL7jq4aX6ULWBkpK77WGN] device token from database');
+
+2022-07-06 17:04:48,398 [ThreadPoolExecutor-0_2:12120] [scheduler:monitor:186] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 151, in monitor
+    send_message(content, name, notifications)
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 90, in send_message
+    raise PartNotificationError('监测到变化，部分通知方式发送错误：' +
+task.utils.scheduler.PartNotificationError: 监测到变化，部分通知方式发送错误：Bark Exception: Exception('failed to get device token: failed to get [1t6GZbu4wKVXtCWYhDcmenN] device token from database');Bark Exception: Exception('failed to get device token: failed to get [15XL7jq4aX6ULWBkpK77WGN] device token from database');
+
+2022-07-06 17:04:48,418 [ThreadPoolExecutor-0_0:15852] [scheduler:monitor:186] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 151, in monitor
+    send_message(content, name, notifications)
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 90, in send_message
+    raise PartNotificationError('监测到变化，部分通知方式发送错误：' +
+task.utils.scheduler.PartNotificationError: 监测到变化，部分通知方式发送错误：Bark Exception: Exception('failed to get device token: failed to get [1t6GZbu4wKVXtCWYhDcmenN] device token from database');Bark Exception: Exception('failed to get device token: failed to get [15XL7jq4aX6ULWBkpK77WGN] device token from database');
+
+2022-07-06 17:04:48,443 [ThreadPoolExecutor-0_0:15852] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-07-06 17:04:48,470 [ThreadPoolExecutor-0_5:18660] [scheduler:monitor:186] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 151, in monitor
+    send_message(content, name, notifications)
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 90, in send_message
+    raise PartNotificationError('监测到变化，部分通知方式发送错误：' +
+task.utils.scheduler.PartNotificationError: 监测到变化，部分通知方式发送错误：Bark Exception: Exception('failed to get device token: failed to get [1t6GZbu4wKVXtCWYhDcmenN] device token from database');Bark Exception: Exception('failed to get device token: failed to get [15XL7jq4aX6ULWBkpK77WGN] device token from database');
+
+2022-07-06 17:04:48,476 [ThreadPoolExecutor-0_2:12120] [scheduler:add_job:219] [INFO]- 添加定时任务task_3
+2022-07-06 17:04:48,481 [ThreadPoolExecutor-0_3:20456] [scheduler:monitor:186] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 151, in monitor
+    send_message(content, name, notifications)
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 90, in send_message
+    raise PartNotificationError('监测到变化，部分通知方式发送错误：' +
+task.utils.scheduler.PartNotificationError: 监测到变化，部分通知方式发送错误：Bark Exception: Exception('failed to get device token: failed to get [1t6GZbu4wKVXtCWYhDcmenN] device token from database');Bark Exception: Exception('failed to get device token: failed to get [15XL7jq4aX6ULWBkpK77WGN] device token from database');
+
+2022-07-06 17:04:48,529 [ThreadPoolExecutor-0_1:23416] [scheduler:add_job:219] [INFO]- 添加定时任务task_2
+2022-07-06 17:04:48,576 [ThreadPoolExecutor-0_3:20456] [scheduler:add_job:219] [INFO]- 添加定时任务task_11
+2022-07-06 17:04:48,623 [ThreadPoolExecutor-0_5:18660] [scheduler:add_job:219] [INFO]- 添加定时任务task_6
+2022-07-06 17:05:02,343 [ThreadPoolExecutor-0_4:8672] [scheduler:monitor:135] [INFO]- rule: , content: Pablo Hernández de Cos: Closing ceremony of the academic year 2021-2022
+https://www.bis.org/review/r220705d.htm, last_content: , last_content2: , status_code: 3
+2022-07-06 17:05:03,944 [ThreadPoolExecutor-0_4:8672] [scheduler:monitor:186] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 151, in monitor
+    send_message(content, name, notifications)
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 90, in send_message
+    raise PartNotificationError('监测到变化，部分通知方式发送错误：' +
+task.utils.scheduler.PartNotificationError: 监测到变化，部分通知方式发送错误：Bark Exception: Exception('failed to get device token: failed to get [1t6GZbu4wKVXtCWYhDcmenN] device token from database');Bark Exception: Exception('failed to get device token: failed to get [15XL7jq4aX6ULWBkpK77WGN] device token from database');
+
+2022-07-06 17:05:03,976 [ThreadPoolExecutor-0_4:8672] [scheduler:add_job:219] [INFO]- 添加定时任务task_18
+2022-07-06 17:05:20,165 [ThreadPoolExecutor-0_6:21872] [scheduler:monitor:135] [INFO]- rule: , content: Global Public Investor 2022
+https://www.omfif.org/omfif-reports/global-public-investor-2022/
+https://www.omfif.org/omfif-reports/, last_content: , last_content2: , status_code: 0
+2022-07-06 17:05:20,199 [ThreadPoolExecutor-0_6:21872] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-07-06 17:05:20,393 [ThreadPoolExecutor-0_2:12120] [scheduler:monitor:135] [INFO]- rule: , content: Social bonds becoming more important in reserves portfolios
+https://www.omfif.org/2022/07/social-bonds-becoming-more-important-in-reserves-portfolios/
+https://www.omfif.org/
+测试, last_content: , last_content2: , status_code: 0
+2022-07-06 17:05:20,409 [ThreadPoolExecutor-0_2:12120] [scheduler:add_job:219] [INFO]- 添加定时任务task_2
+2022-07-06 17:05:20,539 [ThreadPoolExecutor-0_7:23640] [scheduler:monitor:135] [INFO]- rule: , content:  05 July 2022   Business activity revives across manufacturing and services in June, but demand headwinds persist amid ongoing COVID-19 restrictions
+https://ihsmarkit.com/research-analysis/business-activity-revives-across-manufacturing-and-services-in-june-June22.html
+ 05 July 2022   Eurozone PMI signals growth in June but downturn risks rise amid weakening leading indicators
+https://ihsmarkit.com/research-analysis/eurozone-pmi-signals-growth-in-june-but-downturn-risks-rise-Jul22.html
+ 04 July 2022   Week Ahead Economic Preview: Week of 04 July 2022
+https://ihsmarkit.com/research-analysis/week-ahead-economic-preview-week-of-04-july-2022.html
+https://ihsmarkit.com/research-analysis/pmi.html, last_content: , last_content2: , status_code: 0
+2022-07-06 17:05:20,565 [ThreadPoolExecutor-0_7:23640] [scheduler:add_job:219] [INFO]- 添加定时任务task_5
+2022-07-06 17:05:21,053 [ThreadPoolExecutor-0_3:20456] [scheduler:monitor:135] [INFO]- rule: , content:  05 July 2022   Banking risk monthly outlook: July 2022
+https://ihsmarkit.com/research-analysis/banking-risk-monthly-outlook-july-2022.html
+ 05 July 2022   Morocco’s Anchois discovery
+https://ihsmarkit.com/research-analysis/moroccos-anchois-discovery.html
+ 05 July 2022   Chartis RiskTech BuySide 50: Financial Risk Analytics Wins Investment/Market Risk Category
+https://ihsmarkit.com/research-analysis/chartis-risktech-buyside-50-financial-risk-analytics-wins-inve.html
+https://ihsmarkit.com/research-analysis/index.html, last_content: , last_content2: , status_code: 0
+2022-07-06 17:05:21,067 [ThreadPoolExecutor-0_3:20456] [scheduler:add_job:219] [INFO]- 添加定时任务task_6
+2022-07-06 17:05:28,654 [ThreadPoolExecutor-0_8:10632] [views:ping:9] [INFO]- pong!!
+2022-07-06 17:05:31,519 [ThreadPoolExecutor-0_2:12120] [scheduler:monitor:191] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\selenium\webdriver\common\service.py", line 72, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "C:\Users\huxue\.conda\envs\webw14\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\huxue\.conda\envs\webw14\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 129, in monitor
+    content = get_content(url, is_chrome, selector_type, selector,
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\extract_info.py", line 62, in get_content
+    content_dict = selector_handler.get_by_xpath(url, selector_dict,
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\selector\phantomjs_selector.py", line 48, in get_by_xpath
+    html = self.get_html(url, headers)
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\selector\phantomjs_selector.py", line 35, in get_html
+    driver = webdriver.PhantomJS()
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\selenium\webdriver\phantomjs\webdriver.py", line 56, in __init__
+    self.service.start()
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\selenium\webdriver\common\service.py", line 81, in start
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: 'phantomjs' executable needs to be in PATH. 
+
+
+2022-07-06 17:05:31,542 [ThreadPoolExecutor-0_9:20676] [scheduler:monitor:135] [INFO]- rule: , content: 出错
+出错
+https://www.mckinsey.com.cn/insights/, last_content: , last_content2: , status_code: 3
+2022-07-06 17:05:31,545 [ThreadPoolExecutor-0_2:12120] [scheduler:add_job:219] [INFO]- 添加定时任务task_4
+2022-07-06 17:05:31,652 [ThreadPoolExecutor-0_1:23416] [scheduler:monitor:135] [INFO]- rule: , content: AmCham Shanghai June Covid Impact Survey 上海美国商会调研报告：新冠疫情对企业的影响
+http://www.amcham-shanghai.org/sites/default/files/2022-06/AmCham%20Shanghai%20June%20Covid%20Impact%20Survey%20%E4%B8%8A%E6%B5%B7%E7%BE%8E%E5%9B%BD%E5%95%86%E4%BC%9A%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A%EF%BC%9A%E6%96%B0%E5%86%A0%E7%96%AB%E6%83%85%E5%AF%B9%E4%BC%81%E4%B8%9A%E7%9A%84%E5%BD%B1%E5%93%8D.pdf
+https://www.amcham-shanghai.org/en/resources/publications, last_content: , last_content2: , status_code: 3
+2022-07-06 17:05:32,441 [ThreadPoolExecutor-0_0:15852] [scheduler:monitor:135] [INFO]- rule: , content: How will the Russia-Ukraine war reshape the world? Here are four possible futures.
+https://www.atlanticcouncil.org/content-series/the-big-story/how-will-the-russia-ukraine-war-reshape-the-world-here-are-four-possible-futures/
+https://www.atlanticcouncil.org/the-big-story/, last_content: , last_content2: , status_code: 3
+2022-07-06 17:05:32,541 [ThreadPoolExecutor-0_7:23640] [scheduler:monitor:135] [INFO]- rule: , content: Twenty-first-century diplomacy: Strengthening US diplomacy for the challenges of today and tomorrow
+出错
+https://www.atlanticcouncil.org/in-depth-research-reports/, last_content: , last_content2: , status_code: 3
+2022-07-06 17:05:33,070 [ThreadPoolExecutor-0_9:20676] [scheduler:monitor:186] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 151, in monitor
+    send_message(content, name, notifications)
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 90, in send_message
+    raise PartNotificationError('监测到变化，部分通知方式发送错误：' +
+task.utils.scheduler.PartNotificationError: 监测到变化，部分通知方式发送错误：Bark Exception: Exception('failed to get device token: failed to get [1t6GZbu4wKVXtCWYhDcmenN] device token from database');Bark Exception: Exception('failed to get device token: failed to get [15XL7jq4aX6ULWBkpK77WGN] device token from database');
+
+2022-07-06 17:05:33,103 [ThreadPoolExecutor-0_9:20676] [scheduler:add_job:219] [INFO]- 添加定时任务task_12
+2022-07-06 17:05:33,322 [ThreadPoolExecutor-0_1:23416] [scheduler:monitor:186] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 151, in monitor
+    send_message(content, name, notifications)
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 90, in send_message
+    raise PartNotificationError('监测到变化，部分通知方式发送错误：' +
+task.utils.scheduler.PartNotificationError: 监测到变化，部分通知方式发送错误：Bark Exception: Exception('failed to get device token: failed to get [1t6GZbu4wKVXtCWYhDcmenN] device token from database');Bark Exception: Exception('failed to get device token: failed to get [15XL7jq4aX6ULWBkpK77WGN] device token from database');
+
+2022-07-06 17:05:33,344 [ThreadPoolExecutor-0_1:23416] [scheduler:add_job:219] [INFO]- 添加定时任务task_13
+2022-07-06 17:05:34,316 [ThreadPoolExecutor-0_7:23640] [scheduler:monitor:186] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 151, in monitor
+    send_message(content, name, notifications)
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 90, in send_message
+    raise PartNotificationError('监测到变化，部分通知方式发送错误：' +
+task.utils.scheduler.PartNotificationError: 监测到变化，部分通知方式发送错误：Bark Exception: Exception('failed to get device token: failed to get [1t6GZbu4wKVXtCWYhDcmenN] device token from database');Bark Exception: Exception('failed to get device token: failed to get [15XL7jq4aX6ULWBkpK77WGN] device token from database');
+
+2022-07-06 17:05:34,355 [ThreadPoolExecutor-0_7:23640] [scheduler:add_job:219] [INFO]- 添加定时任务task_15
+2022-07-06 17:05:34,624 [ThreadPoolExecutor-0_0:15852] [scheduler:monitor:186] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 151, in monitor
+    send_message(content, name, notifications)
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 90, in send_message
+    raise PartNotificationError('监测到变化，部分通知方式发送错误：' +
+task.utils.scheduler.PartNotificationError: 监测到变化，部分通知方式发送错误：Bark Exception: Exception('failed to get device token: failed to get [1t6GZbu4wKVXtCWYhDcmenN] device token from database');Bark Exception: Exception('failed to get device token: failed to get [15XL7jq4aX6ULWBkpK77WGN] device token from database');
+
+2022-07-06 17:05:34,647 [ThreadPoolExecutor-0_0:15852] [scheduler:add_job:219] [INFO]- 添加定时任务task_17
+2022-07-06 17:05:34,686 [ThreadPoolExecutor-0_4:8672] [scheduler:monitor:135] [INFO]- rule: , content: Yoon Suk-yeol Is Biden's Perfect South Korea Partner
+https://www.rand.org/blog/2022/07/yoon-suk-yeol-is-bidens-perfect-south-korea-partner.html
+https://www.rand.org/search.html?query=china&sortby=date&page=1, last_content: , last_content2: , status_code: 3
+2022-07-06 17:05:35,297 [ThreadPoolExecutor-0_8:10632] [scheduler:monitor:135] [INFO]- rule: , content: Pablo Hernández de Cos: Closing ceremony of the academic year 2021-2022
+https://www.bis.org/review/r220705d.htm, last_content: , last_content2: , status_code: 0
+2022-07-06 17:05:35,327 [ThreadPoolExecutor-0_8:10632] [scheduler:add_job:219] [INFO]- 添加定时任务task_18
+2022-07-06 17:05:37,382 [ThreadPoolExecutor-0_4:8672] [scheduler:monitor:186] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 151, in monitor
+    send_message(content, name, notifications)
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 90, in send_message
+    raise PartNotificationError('监测到变化，部分通知方式发送错误：' +
+task.utils.scheduler.PartNotificationError: 监测到变化，部分通知方式发送错误：Bark Exception: Exception('failed to get device token: failed to get [1t6GZbu4wKVXtCWYhDcmenN] device token from database');Bark Exception: Exception('failed to get device token: failed to get [15XL7jq4aX6ULWBkpK77WGN] device token from database');
+
+2022-07-06 17:05:37,408 [ThreadPoolExecutor-0_4:8672] [scheduler:add_job:219] [INFO]- 添加定时任务task_16
+2022-07-06 17:05:41,250 [ThreadPoolExecutor-0_6:21872] [scheduler:monitor:191] [ERROR]- Traceback (most recent call last):
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\huxue\.conda\envs\webw14\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\huxue\.conda\envs\webw14\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\huxue\.conda\envs\webw14\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1112: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\urllib3\connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='www.adb.org', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\scheduler.py", line 129, in monitor
+    content = get_content(url, is_chrome, selector_type, selector,
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\extract_info.py", line 62, in get_content
+    content_dict = selector_handler.get_by_xpath(url, selector_dict,
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\selector\request_selector.py", line 28, in get_by_xpath
+    html = self.get_html(url, headers)
+  File "C:\Users\huxue\Desktop\代码\app1\task\utils\selector\request_selector.py", line 20, in get_html
+    r = requests.get(url, headers=header_dict, timeout=10, verify=False)
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\huxue\.conda\envs\webw14\lib\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.adb.org', port=443): Read timed out. (read timeout=10)
+
+2022-07-06 17:05:41,270 [ThreadPoolExecutor-0_6:21872] [scheduler:add_job:219] [INFO]- 添加定时任务task_14
+2022-07-06 17:05:49,535 [ThreadPoolExecutor-0_9:20676] [scheduler:monitor:135] [INFO]- rule: , content: 出错
+https://www.mckinsey.com出错
+https://www.mckinsey.com/industries/financial-services/our-insights, last_content: , last_content2: , status_code: 0
+2022-07-06 17:05:49,538 [ThreadPoolExecutor-0_5:18660] [scheduler:monitor:135] [INFO]- rule: , content: Human capital at work: The value of experience
+https://www.mckinsey.com/business-functions/people-and-organizational-performance/our-insights/human-capital-at-work-the-value-of-experience
+https://www.mckinsey.com/mgi/overview, last_content: , last_content2: , status_code: 0
+2022-07-06 17:05:49,571 [ThreadPoolExecutor-0_9:20676] [scheduler:add_job:219] [INFO]- 添加定时任务task_8
+2022-07-06 17:05:49,604 [ThreadPoolExecutor-0_5:18660] [scheduler:add_job:219] [INFO]- 添加定时任务task_10
+2022-07-06 17:05:49,715 [ThreadPoolExecutor-0_3:20456] [scheduler:monitor:135] [INFO]- rule: , content: 出错
+https://www.mckinsey.com出错
+https://www.mckinsey.com/featured-insights, last_content: , last_content2: , status_code: 0
+2022-07-06 17:05:49,741 [ThreadPoolExecutor-0_3:20456] [scheduler:add_job:219] [INFO]- 添加定时任务task_9
+2022-07-06 17:05:49,746 [ThreadPoolExecutor-0_0:15852] [scheduler:monitor:135] [INFO]- rule: , content: The future monetary system
+https://www.bis.org/speeches/sp220626b.htm
+https://www.bis.org/mgmtspeeches/index.htm, last_content: , last_content2: , status_code: 0
+2022-07-06 17:05:49,766 [ThreadPoolExecutor-0_2:12120] [scheduler:monitor:135] [INFO]- rule: , content: How capital expenditure management can drive performance
+<time>June 29, 2022</time>
+Economic conditions outlook, June 2022
+<time>June 29, 2022</time>
+Fear factor: Overcoming human barriers to innovation
+<time>June 3, 2022</time>
+https://www.mckinsey.com/business-functions/strategy-and-corporate-finance/our-insights, last_content: , last_content2: , status_code: 0
+2022-07-06 17:05:49,804 [ThreadPoolExecutor-0_2:12120] [scheduler:add_job:219] [INFO]- 添加定时任务task_11
+2022-07-06 17:05:49,831 [ThreadPoolExecutor-0_0:15852] [scheduler:add_job:219] [INFO]- 添加定时任务task_7
+2022-07-06 17:05:50,199 [ThreadPoolExecutor-0_4:8672] [scheduler:monitor:135] [INFO]- rule: , content: 出错
+https://www.wto.org出错
+https://www.wto.org/english/forums_e/media_e/xmedia_e/xmedia_e.htm, last_content: , last_content2: , status_code: 0
+2022-07-06 17:05:50,265 [ThreadPoolExecutor-0_4:8672] [scheduler:add_job:219] [INFO]- 添加定时任务task_3
+2022-07-06 17:05:51,984 [ThreadPoolExecutor-0_7:23640] [scheduler:monitor:135] [INFO]- rule: , content: Global Public Investor 2022
+https://www.omfif.org/omfif-reports/global-public-investor-2022/
+https://www.omfif.org/omfif-reports/, last_content: , last_content2: , status_code: 0
+2022-07-06 17:05:52,002 [ThreadPoolExecutor-0_7:23640] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-07-06 17:05:52,041 [ThreadPoolExecutor-0_6:21872] [scheduler:monitor:135] [INFO]- rule: , content: Social bonds becoming more important in reserves portfolios
+https://www.omfif.org/2022/07/social-bonds-becoming-more-important-in-reserves-portfolios/
+https://www.omfif.org/
+测试, last_content: , last_content2: , status_code: 0
+2022-07-06 17:05:52,058 [ThreadPoolExecutor-0_6:21872] [scheduler:add_job:219] [INFO]- 添加定时任务task_2
+2022-07-06 17:05:52,738 [ThreadPoolExecutor-0_9:20676] [scheduler:monitor:135] [INFO]- rule: , content:  05 July 2022   Business activity revives across manufacturing and services in June, but demand headwinds persist amid ongoing COVID-19 restrictions
+https://ihsmarkit.com/research-analysis/business-activity-revives-across-manufacturing-and-services-in-june-June22.html
+ 05 July 2022   Eurozone PMI signals growth in June but downturn risks rise amid weakening leading indicators
+https://ihsmarkit.com/research-analysis/eurozone-pmi-signals-growth-in-june-but-downturn-risks-rise-Jul22.html
+ 04 July 2022   Week Ahead Economic Preview: Week of 04 July 2022
+https://ihsmarkit.com/research-analysis/week-ahead-economic-preview-week-of-04-july-2022.html
+https://ihsmarkit.com/research-analysis/pmi.html, last_content: , last_content2: , status_code: 0
+2022-07-06 17:05:52,767 [ThreadPoolExecutor-0_9:20676] [scheduler:add_job:219] [INFO]- 添加定时任务task_5
+2022-07-06 17:05:53,343 [ThreadPoolExecutor-0_3:20456] [scheduler:monitor:135] [INFO]- rule: , content:  05 July 2022   Banking risk monthly outlook: July 2022
+https://ihsmarkit.com/research-analysis/banking-risk-monthly-outlook-july-2022.html
+ 05 July 2022   Morocco’s Anchois discovery
+https://ihsmarkit.com/research-analysis/moroccos-anchois-discovery.html
+ 05 July 2022   Chartis RiskTech BuySide 50: Financial Risk Analytics Wins Investment/Market Risk Category
+https://ihsmarkit.com/research-analysis/chartis-risktech-buyside-50-financial-risk-analytics-wins-inve.html
+https://ihsmarkit.com/research-analysis/index.html, last_content: , last_content2: , status_code: 0
+2022-07-06 17:05:53,370 [ThreadPoolExecutor-0_3:20456] [scheduler:add_job:219] [INFO]- 添加定时任务task_6
+2022-07-06 17:06:06,662 [ThreadPoolExecutor-0_0:15852] [scheduler:monitor:135] [INFO]- rule: , content: Pablo Hernández de Cos: Closing ceremony of the academic year 2021-2022
+https://www.bis.org/review/r220705d.htm, last_content: , last_content2: , status_code: 0
+2022-07-06 17:06:06,693 [ThreadPoolExecutor-0_0:15852] [scheduler:add_job:219] [INFO]- 添加定时任务task_18
+2022-07-06 17:06:23,685 [ThreadPoolExecutor-0_4:8672] [scheduler:monitor:135] [INFO]- rule: , content: Global Public Investor 2022
+https://www.omfif.org/omfif-reports/global-public-investor-2022/
+https://www.omfif.org/omfif-reports/, last_content: , last_content2: , status_code: 0
+2022-07-06 17:06:23,705 [ThreadPoolExecutor-0_5:18660] [scheduler:monitor:135] [INFO]- rule: , content: Social bonds becoming more important in reserves portfolios
+https://www.omfif.org/2022/07/social-bonds-becoming-more-important-in-reserves-portfolios/
+https://www.omfif.org/
+测试, last_content: , last_content2: , status_code: 0
+2022-07-06 17:06:23,713 [ThreadPoolExecutor-0_4:8672] [scheduler:add_job:219] [INFO]- 添加定时任务task_1
+2022-07-06 17:06:23,736 [ThreadPoolExecutor-0_5:18660] [scheduler:add_job:219] [INFO]- 添加定时任务task_2
