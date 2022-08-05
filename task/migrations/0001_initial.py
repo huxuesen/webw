@@ -52,7 +52,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=100, verbose_name='任务名称')),
-                ('url', models.CharField(max_length=1000, validators=[django.core.validators.URLValidator()], verbose_name='监控网址')),
+                ('url', models.CharField(max_length=1500, validators=[django.core.validators.URLValidator()], verbose_name='监控网址')),
                 ('selector_type', models.IntegerField(choices=[(0, 'Xpath'), (1, 'Css selector'), (2, 'JsonPath')], default='Xpath', verbose_name='元素选择器类型')),
                 ('selector', models.TextField(verbose_name='元素选择器')),
                 ('template', models.TextField(blank=True, verbose_name='消息体模板')),
@@ -74,7 +74,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=32, verbose_name='任务名称')),
-                ('url', models.CharField(max_length=1000, validators=[django.core.validators.URLValidator()], verbose_name='RSS地址')),
+                ('url', models.CharField(max_length=1500, validators=[django.core.validators.URLValidator()], verbose_name='RSS地址')),
                 ('frequency', models.FloatField(default=1, validators=[django.core.validators.MinValueValidator(0)], verbose_name='频率(分钟)')),
                 ('create_time', models.DateTimeField(auto_now_add=True, verbose_name='创建时间')),
                 ('notification', models.ManyToManyField(to='setting.Notification', verbose_name='通知方式')),
