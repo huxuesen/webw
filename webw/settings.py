@@ -156,7 +156,8 @@ SIMPLEUI_ICON = {
 
 SIMPLEUI_ANALYSIS = False
 SIMPLEUI_STATIC_OFFLINE = True
-SIMPLEUI_LOGO = "/static/img/favicon.ico"
+SIMPLEUI_LOGIN_PARTICLES = False
+SIMPLEUI_LOGO = "/static/img/favico.ico"
 
 # logging配置
 log_path = os.path.join(BASE_DIR, 'db', 'log')
