@@ -13,7 +13,7 @@ logger = logging.getLogger('admin')
 @admin.register(TaskStatus)
 class TaskStatusAdmin(admin.ModelAdmin):
     list_display = [
-        'task_name', 'last_run', 'short_last_status', 'task_status',
+        'id', 'task_name', 'last_run', 'short_last_status', 'task_status',
         'task_type'
     ]
     list_editable = ['task_status']

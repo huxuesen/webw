@@ -141,7 +141,8 @@ SIMPLEUI_CONFIG = {
         'icon': 'fab fa-chrome',
         'url': ''
     }],
-    'menu_display': ['Simpleui', '任务管理', '系统管理', 'PlayWright'],
+    #'menu_display': ['Simpleui', '任务管理', '系统管理', 'PlayWright'],2023.02.12修改。去除侧边栏PlayWright
+    'menu_display': ['Simpleui', '任务管理', '系统管理'],
 }
 
 SIMPLEUI_ICON = {
@@ -151,7 +152,6 @@ SIMPLEUI_ICON = {
     '网页监控管理': 'far fa-file-code',
     '任务状态': 'far fa-calendar-check',
     '日志查看': 'fas fa-book-reader',
-    'Telegram Bot 设置': 'fab fa-telegram',
 }
 
 SIMPLEUI_ANALYSIS = False

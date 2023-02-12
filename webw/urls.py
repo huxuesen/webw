@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 
 admin.site.site_title = 'WebWatcher Powered By Xuesen'
-admin.site.site_header = 'WebWatcher 2022.08'
+admin.site.site_header = 'WebWatcher 2023.02'
 
 urlpatterns = [
     path('', admin.site.urls),

@@ -77,14 +77,6 @@ def send_message(content, header, notifications):
             fail += 1
             exception_content += 'Wechat Exception: {};'.format(repr(e))
 
-        try:
-            if type == 4:
-                handler = new_handler('telegram')
-                handler.send(notification_detail, header, content)
-        except Exception as e:
-            fail += 1
-            exception_content += 'Telegram Exception: {};'.format(repr(e))
-
     if fail > 0:
         if fail < total:
             raise PartNotificationError('监测到变化，部分通知方式发送错误：' +

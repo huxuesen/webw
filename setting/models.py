@@ -29,7 +29,7 @@ class SystemMailSetting(models.Model):
 
 
 class Notification(models.Model):
-    type_choice = ((0, 'Bark'), (1, '自定义通知'), (2, '邮箱'), (3, '微信'), (4, 'Telegram'))
+    type_choice = ((0, 'Bark'), (1, '自定义通知'), (2, '邮箱'), (3, '微信'))
     name = models.CharField(max_length=32,
                             null=False,
                             verbose_name='通知方式名称',
@@ -57,15 +57,3 @@ class Log(models.Model):
         verbose_name = "日志查看"
         verbose_name_plural = "日志查看"
 
-
-class TelegramSetting(models.Model):
-    token = models.CharField(max_length=100,
-                             null=False,
-                             verbose_name='Telegram Bot Token')
-
-    class Meta:
-        verbose_name = "Telegram Bot 设置"
-        verbose_name_plural = "Telegram Bot 设置"
-
-    def __str__(self):
-        return 'Telegram Bot ' + self.token
