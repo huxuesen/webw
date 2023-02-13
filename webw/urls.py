@@ -15,12 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.contrib.staticfiles.views import serve
 
 admin.site.site_title = 'WebWatcher Powered By Xuesen'
 admin.site.site_header = 'WebWatcher 2023.02'
 
 urlpatterns = [
     path('', admin.site.urls),
-    path(r'favicon.ico', serve, {'path': '/static/img/favicon.ico'}),
 ]
