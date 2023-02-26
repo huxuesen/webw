@@ -105,6 +105,7 @@ def monitor(id, type):
             regular_expression = task.regular_expression
             rule = task.rule
             headers = task.headers
+            requestdata = task.requestdata
 
             try:
                 last = Content.objects.get(task_id=id, task_type=type)
@@ -120,7 +121,7 @@ def monitor(id, type):
             last_content2 = last2.content
             content = get_content(url, is_chrome, selector_type, selector,
                                   content_template, regular_expression,
-                                  headers)
+                                  headers, requestdata)
 
             global_content = content
             status_code = is_changed(rule, content, last_content, last_content2)

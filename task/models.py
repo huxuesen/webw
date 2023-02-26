@@ -156,7 +156,10 @@ class Task(models.Model):
                                default="{'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41'}",
                                blank=True,
                                help_text='')
-
+    #requestdata
+    requestdata = models.TextField(verbose_name='请求数据',
+                                    blank=True,
+                                    help_text='')
     class Meta:
         verbose_name = "网页监控"
         verbose_name_plural = "网页监控管理"

@@ -13,13 +13,11 @@ logger = logging.getLogger('admin')
 @admin.register(TaskStatus)
 class TaskStatusAdmin(admin.ModelAdmin):
     list_display = [
-        'id', 'task_name', 'last_run', 'short_last_status', 'task_status',
-        'task_type'
+        'id', 'task_name', 'last_run', 'short_last_status', 'task_status', 'task_type'
     ]
     list_editable = ['task_status']
-    list_per_page = 25 #改为每页显示25条
+    list_per_page = 200 #改为每页显示200条
     list_display_links = None
-
     actions_on_top = True
 
     def has_add_permission(self, request):
@@ -43,14 +41,11 @@ class TaskAdmin(ImportExportModelAdmin):
     resource_class = TaskResource
 
     list_display = [
-        'id', 'name', 'url', 'frequency', 'selector', 'create_time',
-        'is_chrome', 'regular_expression', 'rule', 'headers'
-    ]
-    list_editable = ('name', 'url', 'frequency', 'is_chrome',
-                     'regular_expression', 'rule', 'headers', 'selector')
-    filter_horizontal = ('notification', )
+        'id', 'name', 'url', 'frequency', 'selector_type', 'is_chrome', 'rule']
+    list_editable = ['name', 'url', 'frequency', 'selector_type', 'is_chrome', 'rule']
+    filter_horizontal = ['notification', ]
 
-    list_per_page = 25 #改为每页显示25条
+    list_per_page = 200 #改为每页显示200条
 
     def has_delete_permission(self, request, obj=None):
         return False
@@ -93,7 +88,7 @@ class RSSTaskAdmin(ImportExportModelAdmin):
     list_editable = ('name', 'url', 'frequency')
     filter_horizontal = ('notification', )
 
-    list_per_page = 25 #改为每页显示25条
+    list_per_page = 200 #改为每页显示200条
 
     def has_delete_permission(self, request, obj=None):
         return False
