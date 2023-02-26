@@ -44,7 +44,7 @@ def send_message(content, header, notifications):
 
         try:
             if type == 0:
-                handler = new_handler('bark')
+                handler = new_handler('custom')
                 handler.send(notification_detail, header, content)
         except Exception as e:
             fail += 1
@@ -52,8 +52,9 @@ def send_message(content, header, notifications):
 
         try:
             if type == 1:
-                handler = new_handler('custom')
+                handler = new_handler('bark')
                 handler.send(notification_detail, header, content)
+
         except Exception as e:
             fail += 1
             exception_content += 'Custom Exception: {};'.format(repr(e))

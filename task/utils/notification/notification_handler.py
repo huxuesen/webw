@@ -8,10 +8,10 @@ logger = logging.getLogger('main')
 
 
 def new_handler(name):
-    if name == 'bark':
-        return BarkNotification()
-    elif name == 'custom':
+    if name == 'custom':
         return CustomNotification()
+    elif name == 'bark':
+        return BarkNotification()
     elif name == 'mail':
         return MailNotification()
     elif name == 'wechat':
