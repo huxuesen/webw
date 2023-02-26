@@ -18,7 +18,7 @@ class RequestsSelector(FatherSelector):
             if type(header_dict) != dict:
                 raise Exception('必须是字典格式')
 
-            if requestdata==None:
+            if requestdata=='':
                 r = requests.get(url, headers=header_dict, timeout=30, verify=False)
             else:
                 requestdata_dict = ast.literal_eval(requestdata)
@@ -26,7 +26,7 @@ class RequestsSelector(FatherSelector):
                     raise Exception('requestdata必须是字典格式')
                 r = requests.post(url, headers=header_dict, timeout=30, verify=False, json=requestdata_dict)
         else:
-            if requestdata==None:
+            if requestdata=='':
                 r = requests.get(url, timeout=30, verify=False)
             else:
                 requestdata_dict = ast.literal_eval(requestdata)
