@@ -29,7 +29,7 @@ class SystemMailSetting(models.Model):
 
 
 class Notification(models.Model):
-    type_choice = ((0, 'Bark'), (1, '自定义通知'), (2, '邮箱'), (3, '微信'))
+    type_choice = ((0, '自定义通知'), (1, 'Bark'), (2, '邮箱'), (3, '微信'))
     name = models.CharField(max_length=32,
                             null=False,
                             verbose_name='通知方式名称',

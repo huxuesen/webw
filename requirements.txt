@@ -8,6 +8,6 @@ feedparser
 func_timeout==4.3.5
 jsonpath==0.82
 django==2.2.28
-django-simpleui==2023.2.10
+django-simpleui==2023.3.1
 django-apscheduler==0.3.0
 django-import-export==2.7.1
