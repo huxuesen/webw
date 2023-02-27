@@ -43,8 +43,8 @@ class RequestsSelector(FatherSelector):
         result = OrderedDict()
         for key, xpath_ext in selector_dict.items():
             result[key] = self.xpath_parse(html, xpath_ext)
-            #去除result中的换行符
-            result[key] = result[key].replace('\n', '').replace('\r', '').replace('\t', '')
+            #去除result中的换行符及空格
+            result[key] = result[key].replace('\n', '').replace('\r', '').replace('\t', '').replace('  ', '')
 
         return result
 
@@ -55,7 +55,7 @@ class RequestsSelector(FatherSelector):
         for key, css_ext in selector_dict.items():
             result[key] = self.css_parse(html, css_ext)
             #去除result中的换行符
-            result[key] = result[key].replace('\n', '').replace('\r', '').replace('\t', '')
+            result[key] = result[key].replace('\n', '').replace('\r', '').replace('\t', '').replace('  ', '')
         return result
 
     def get_by_json(self, url, selector_dict, headers=None, requestdata=None):
@@ -65,6 +65,6 @@ class RequestsSelector(FatherSelector):
         result = OrderedDict()
         for key, json_ext in selector_dict.items():
             result[key] = self.json_parse(html, json_ext)
-            result[key] = result[key].replace('[', '').replace(']', '').replace('"', '').replace('\n', '').replace('\r', '').replace('\t', '') #.replace后代码为了去掉jsonpath检测方式的“[]”，去除result中的换行符
+            result[key] = result[key].replace('[', '').replace(']', '').replace('"', '').replace('\n', '').replace('\r', '').replace('\t', '').replace('  ', '') #.replace后代码为了去掉jsonpath检测方式的“[]”，去除result中的换行符
 
         return result
