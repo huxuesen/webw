@@ -21,7 +21,10 @@ class RequestsSelector(FatherSelector):
             if requestdata=='':
                 r = requests.get(url, headers=header_dict, timeout=30, verify=False)
             else:
-                requestdata_dict = ast.literal_eval(requestdata)
+                try:#如果requestdata是字典格式，就不用转换
+                    requestdata_dict = ast.literal_eval(requestdata)
+                except:
+                    requestdata_dict = requestdata
                 if type(requestdata_dict) != dict:
                     raise Exception('requestdata必须是字典格式')
                 r = requests.post(url, headers=header_dict, timeout=30, verify=False, json=requestdata_dict)
@@ -29,7 +32,10 @@ class RequestsSelector(FatherSelector):
             if requestdata=='':
                 r = requests.get(url, timeout=30, verify=False)
             else:
-                requestdata_dict = ast.literal_eval(requestdata)
+                try:#如果requestdata是字典格式，就不用转换
+                    requestdata_dict = ast.literal_eval(requestdata)
+                except:
+                    requestdata_dict = requestdata
                 if type(requestdata_dict) != dict:
                     raise Exception('requestdata必须是字典格式')
                 r = requests.post(url, timeout=30, verify=False, json=requestdata_dict)
