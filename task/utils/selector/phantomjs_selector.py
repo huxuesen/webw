@@ -12,7 +12,7 @@ class PhantomJSSelector(FatherSelector):
     def __init__(self, debug=False):
         self.debug = debug
 
-    def get_html(self, url, headers):
+    def get_html(self, url, headers, requestdata):
         browser_args = [
             '--window-size=1440,900',
             '--window-position=000,000',
