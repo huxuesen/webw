@@ -2,7 +2,7 @@ name: '[docker] CI for releases'
 
 on:
     push:
-        branches: 2023.06.26.playwright
+        branches: 2023.06.30.playwright
 
 jobs:
     release:
@@ -33,4 +33,4 @@ jobs:
                 --platform linux/amd64,linux/arm64 \
                 --output "type=image,push=true" \
                 --file ./Dockerfile . \
-                --tag $(echo "${DOCKER_USERNAME}" | tr '[:upper:]' '[:lower:]')/webw:2023.06.26.playwright
+                --tag $(echo "${DOCKER_USERNAME}" | tr '[:upper:]' '[:lower:]')/webw:2023.06.30.playwright
