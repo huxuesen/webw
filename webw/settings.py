@@ -181,7 +181,7 @@ LOGGING = {
             'level': 'DEBUG',
             'class': 'logging.handlers.RotatingFileHandler',
             'filename': log_file,
-            'maxBytes': 1024 * 1024 * 2,
+            'maxBytes': 1024 * 1024 * 1,
             'backupCount': 1,
             'formatter': 'standard',
             'encoding': 'utf-8',
