@@ -58,7 +58,7 @@ class TaskStatus(models.Model):
     status_choices = ((0, 'run'), (1, 'stop'))
 
     task_status = models.IntegerField(null=False,
-                                      default=1,
+                                      default=0,
                                       verbose_name='任务状态',
                                       choices=status_choices)
     task_type = models.CharField(max_length=100,
